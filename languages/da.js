@@ -12,7 +12,7 @@ export default {
   'TOTAL': 'Total',
   'VOLUME': 'Volumen',
   'WATCH': 'Følg',
-  'UNWATCH': 'Stop med at følge', // There exist no direct translation for 'unwatch'; you could consider simply using 'watch' and 'unwatch'.
+  'UNWATCH': 'Stop med at følge', // There exists no direct translation for 'unwatch'; you could consider simply using 'watch' and 'unwatch'.
   'NOTES': 'Noter',
   'OK': 'Okay',
   'FOR': 'For',
@@ -21,7 +21,7 @@ export default {
   'TRADE': 'Handel',
   'BUY': 'Køb',
   'SELL': 'Sælg',
-  'FILL': 'Fyld', // The term 'fill or/and kill' is used actively in finance with no direct translation. 
+  'FILL': 'Fyld',
   'BUYING': 'Køber',
   'SELLING': 'Sælger',
   'TRADING': 'Handler',
@@ -45,7 +45,7 @@ export default {
   'MONTH': 'Måned',
   'FOREVER': 'For evigt',
   'MARKET': 'Marked',
-  'LIMIT': 'Limit', // Since this is an actual term, I opted for keeping the English version.
+  'LIMIT': 'Limit', // This is a term actively used in finance with no direct translation.
   'STATUS': 'Status',
   'FILLED': 'Fyldt',
   'WRAP': 'Wrap', // See below.
@@ -144,7 +144,7 @@ export default {
   'LAST_TRADE_PRICE': 'SENESTE HANDELSPRIS',
   'CLEAR_SELECTED_ORDER': 'Ryd valgt ordre',
   'MARKET_ORDER': 'Markedsordre',
-  'LIMIT_ORDER': 'Limit ordre', // The term 'limit' is used actively in finance with no direct translation. 
+  'LIMIT_ORDER': 'Limit ordre', // See line 48.
 
   // Wallet General
   'SEND_TO': 'Send til',
@@ -171,7 +171,6 @@ export default {
   'LOAD_MORE': 'Indlæs flere',
 
   // Stats Search General
-  // Is the capitalisation of the second word intentional? I had originally just capitalised the first word as that seemed natural.
   'HIGHEST_VOLUME': 'Højeste Volumen',
   'MY_WALLET': 'Min Wallet',
   'MY_WATCHLIST': 'Min Watchlist',
@@ -190,7 +189,7 @@ export default {
   // Connection errors
   'NO_METAMASK_HEADER': 'Metamask er ikke installeret',
   'NO_METAMASK_BODY': 'Metamask skal være installeret, for at kunne bruge denne side. For at installere Metamask, <a href="https://metamask.io" target="_blank">klik her</a>.',
-  'UNSUPPORTED_DEVICE_HEADER': 'Enheden er ikke understøttet', // This translates to "the device is not supported",  the direct translation would be "ikke understøttet enhed"
+  'UNSUPPORTED_DEVICE_HEADER': 'Enheden er ikke understøttet', // This translates to "the device is not supported",  the direct translation would be "ikke understøttet enhed".
   'UNSUPPORTED_DEVICE_BODY': 'Beklager, men den enhed du benytter, er endnu ikke understøttet. Prøv at tilgå Radar fra en desktop eller laptop i stedet.',
   'INVALID_NETWORK_HEADER': 'Forkert netværk',
   'INVALID_NETWORK_BODY': 'Du er forbundet til det forkerte netværk. Skift til %s i Metamask for at fortsætte med at bruge Radar.',

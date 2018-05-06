@@ -3,7 +3,7 @@ export default {
 
   // General Words
   'RATE': 'Rate',
-  'CHANGE': 'Veksling', // Alternatively, depending on context, 'byttepenge' (money in return). 'veksling' means changing from one currency to another.  
+  'CHANGE': 'Veksling', // Alternatively, depending on context, 'byttepenge' (money in return). 'veksling' means exchanging one currency to another. 'veksel' means to exchange (a currency).
   'BLOCK': 'Blok', // Whilst 'blok' is the correct Danish word, perhaps it would make sense to keep 'block' since 'blockchain' is used directly in Danish anyhow.
   'AMOUNT': 'Mængde',
   'PRICE': 'Pris',

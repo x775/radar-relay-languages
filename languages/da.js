@@ -14,7 +14,7 @@ export default {
   'WATCH': 'Følg',
   'UNWATCH': 'Stop med at følge', // There exists no direct translation for 'unwatch'; you could consider simply using 'watch' and 'unwatch'.
   'NOTES': 'Noter',
-  'OK': 'Okay',
+  'OK': 'OK',
   'FOR': 'For',
   'CLOSE': 'Luk',
   'BASE': 'Base', 
@@ -43,7 +43,7 @@ export default {
   'DAY': 'Dag',
   'WEEK': 'Uge',
   'MONTH': 'Måned',
-  'FOREVER': 'For evigt',
+  'FOREVER': 'Permanent', // Previously this said 'For evigt', but 'permanent' (same meaning as English) might be more applicable. 
   'MARKET': 'Marked',
   'LIMIT': 'Limit', // This is a term actively used in finance with no direct translation.
   'STATUS': 'Status',
@@ -58,13 +58,13 @@ export default {
   'DATE': 'Dato',
   'MARKETPLACE': 'Markedsplads',
   'SEARCH': 'Søg',
-  'REMOVE': 'Fjern',
+  'REMOVE': 'Fjern', // 'Slet' if context of 'remove' is more closely aligned with that of deleting something.
   'TOKEN': 'Token', // In this context, there exists no meaningful Danish translation.
   'CANDLES': 'Candles', // See above.
   'DEPTH': 'Dybde',
   'ORDERBOOK': 'Ordrebog',
-  'CONNECTED': 'forbundet',
-  'DISCONNECT': 'afbryd',
+  'CONNECTED': 'forbundet', // See below.
+  'DISCONNECT': 'afbryd', // This is not capitalised as the original word is not either.
   'LOCKED': 'Låst',
   'LOADING': 'Indlæser...',
   
@@ -73,7 +73,7 @@ export default {
 
   // Navbar General
   'NO_FEE_NOVEMBER': 'Gebyrfri november!',
-  'LEARN_MORE': 'Lær mere.', // This translates directly to "learn more", though a more natural version would be "læs mere", which is "read more".
+  'LEARN_MORE': 'Læs mere.', // I opted for this as it is more natural, though not 100% direct translation.
   'OPEN_RADAR': 'Åben Radar',
   'ABOUT': 'Om',
   'FAQ': 'FAQ',
@@ -105,8 +105,8 @@ export default {
   'TOKENS_MUST_BE_ENABLED': 'ERC20 kræver, at du har aktiveret tokens i din wallet før handel.',
   'NO_ZRX_NEEDED_FOR_ZRX_BUY': 'Du behøver ikke ZRX for at kunne købe ZRX, da handelsgebyr automatisk trækkes fra ordren.',
   'ZRX_NEEDED_FOR_OTHER_BUY': 'ZRX gebyret er påkrævet for at kunne købe alle andre tokens.',
-  'BETA_WARNING': 'Bemærk venligst at vi stadig er i beta, hvilket betyder at eventuelle bugs eller uønskede rater kan forekomme. Vi takker for din tålmodighed, mens vi arbejder mod en officiel lancering.',
-  'TERMS_OF_SERVICE_AGREEMENT': 'Radar Relay er et ureguleret marked, der hverken kan ses som exchange eller mellemmand. Ved at klikke "OK" accepterer du, at du alene har ansvaret, når du benytter Radar Relay til at sende tokens. Du accepterer ydermere vores <a href="https://radarrelay.com/terms" target="_blank">Servicevilkår</a>.',
+  'BETA_WARNING': 'Bemærk venligst at vi stadig er i beta, hvilket betyder, at eventuelle bugs eller uønskede rater kan forekomme. Vi takker for din tålmodighed, mens vi arbejder mod en officiel lancering.',
+  'TERMS_OF_SERVICE_AGREEMENT': 'Radar Relay er et ureguleret marked, der hverken kan ses som exchange eller mellemmand. Ved at klikke "OK" accepterer du, at du alene har ansvaret, når du benytter Radar Relay til at sende tokens. Du accepterer ydermere vores <a href="https://radarrelay.com/terms" target="_blank">servicevilkår</a>.',
   'SLOW_TRANSACTIONS_WARNING': 'Transaktioner kan tage længere tid end normalt - tjek venligst din gas indstilling i Metamask.',
   'VIEW_GAS_SETTINGS': 'Se anbefalede gas indstillinger.',
 
@@ -114,11 +114,11 @@ export default {
   'PRE_TRADE_TOKEN': 'FundRequest', // In this context, there exists no meaningful Danish translation.
   'TRADING_WILL_BE_ENABLED': 'handel med denne token bliver åbnet når teamet bag låser op for deres token',
   'PRE_TRADE_TOKEN_TRADING_AVAILABLE': 'Handel er endnu ikke tilgængelig',
-  'PRE_TRADE_TOKEN_PLACE_ORDERS_EARLY': 'Du kan stadigvæk oprette køb/salg ordrer før token lanceringen.',
+  'PRE_TRADE_TOKEN_PLACE_ORDERS_EARLY': 'Du kan stadigvæk oprette købs- og salgsordrer før token lanceringen.',
 
   // Ledger Setup Modal General
   'LEDGER_FIRST_USE': 'Introduktion til Ledger med Radar',
-  'LEDGER_CONNECT_UNLOCK': ' Forbind og lås din Ledger S Nano op.',
+  'LEDGER_CONNECT_UNLOCK': 'Forbind og lås din Ledger S Nano op.',
   'LEDGER_OPEN_APPLICATION': 'Åben Ethereum applikationen på din enhed.',
   'LEDGER_SETTING_PERMISSIONS': 'Verificér at Contract Data og Browser Support er aktiveret i Ethereum applikationens indstillinger*.',
   'LEDGER_BROWSER_SUPPORT_NOT_FOUND': 'Hvis Browser Support ikke findes under indstillinger, verificér at du har Firmware >1.2.',
@@ -144,7 +144,7 @@ export default {
   'LAST_TRADE_PRICE': 'SENESTE HANDELSPRIS',
   'CLEAR_SELECTED_ORDER': 'Ryd valgt ordre',
   'MARKET_ORDER': 'Markedsordre',
-  'LIMIT_ORDER': 'Limit ordre', // See line 48.
+  'LIMIT_ORDER': 'Limit ordre', // This is a term actively used in finance with no direct translation.
 
   // Wallet General
   'SEND_TO': 'Send til',
@@ -232,8 +232,8 @@ export default {
   'ERROR_NOT_ENOUGH_TOKEN_FOR_ORDER': 'Du har ikke nok %s i din wallet for denne ordre.',
   'ERROR_UNABLE_TO_PARSE_NUMBER': 'Kunne ikke læse tallet',
   'ERROR_INVALID_NUMBER': 'Ugyldigt tal', 
-  'ERROR_INVALID_ADDRESS': 'Ugyldig adresse.', // The missing t is intentional.
-
+  'ERROR_INVALID_ADDRESS': 'Ugyldig adresse.', 
+  
   // Ledger Specific Errors
   'LEDGER_ETHEREUM_NOT_SELECTED_HEADER': 'Ukendt applikation',
   'LEDGER_ETHEREUM_NOT_SELECTED_BODY': 'Åben Ethereum applikationen på din Ledger enhed for at fortsætte.',
@@ -300,7 +300,7 @@ export default {
   'UNHANDLED_ERROR': 'Der opstod en ukendt fejl.',
   'USER_HAS_NO_ASSOCIATED_ADDRESSES': '',
   'ZRX_NOT_IN_TOKEN_REGISTRY': '',
-  'ORDER_MAKER_TOKEN_IS_TAKER_TOKEN': 'Køb / Sælg tokens er den samme token.',
+  'ORDER_MAKER_TOKEN_IS_TAKER_TOKEN': 'Køb / Sælg tokens er ens.',
 
   // Token Transfer Errors
   'TOKEN_TRANSFER_FAILED': 'Token overførsel fejlede!',
@@ -338,7 +338,7 @@ export default {
 
   // Wallet Tooltips
   'YOUR_AVAILABLE_WETH': 'Din tilgengælige wrapped ETH.',
-  'TO_LEARN_MORE_ABOUT_WETH': 'for at lære mere om W-ETH.',
+  'TO_LEARN_MORE_ABOUT_WETH': 'for at lære mere om WETH.',
   'CLICK_HERE': 'Klik her',
   'ENABLE_THIS_TOKEN': 'Aktivér denne token for handel.',
   'TRANSFER_THIS_TOKEN': 'Overfør denne token til en anden adresse.',
@@ -383,5 +383,4 @@ export default {
   'TOTAL_VALUE': 'Samlet værdi',
   'CREATE_ORDER': 'Lav ordre',
   'KEEP_ORDER_PUBLIC': 'Behold ordren offentlig'
-  
 };
